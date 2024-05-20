@@ -1,0 +1,42 @@
+Remark line goes here
+MASS
+Mg 24.305        2.2000               ATTN, no polarizability parameter
+
+MASS
+Mg    24.305       2.2000        ; Mg
+br    79.904       2.8800        ; Br
+os    15.9994      0.4340        ; O
+ca    12.0100      0.3600        ; C
+
+BOND
+Mg-br    36.19271   2.58993   ; Mg - Br
+Mg-os    64.94823   2.02403   ; Mg - O
+Mg-ca    75.33669   2.12332   ; Mg - C
+
+ANGLE
+br-Mg-os    23.23031  100.23   ; Br - Mg - O
+br-Mg-ca    57.6510   123.77   ; Br - Mg - C
+br-Mg-br    47.41392   91.72   ; Br - Mg - Br
+Mg-br-Mg    26.00881   88.28   ; Mg - Br - Mg
+Mg-os-c3    37.05186  121.08   ; Mg - O - C
+Mg-ca-ca    66.370    123.08    ; Mg - C - C
+ca-Mg-os    41.12934  108.17   ; C - Mg - O
+
+DIHE
+br-Mg-os-c3   1    0.000         0.000           2.000      ATTN, need revision
+br-Mg-ca-ca   1    0.000         0.000           2.000      ATTN, need revision
+br-Mg-br-Mg   1    0.000         0.000           2.000      ATTN, need revision
+os-Mg-br-Mg   1    0.000         0.000           2.000      ATTN, need revision
+ca-Mg-br-Mg   1    0.000         0.000           2.000      ATTN, need revision
+os-Mg-ca-ca   1    0.000         0.000           2.000      ATTN, need revision
+ca-Mg-os-c3   1    0.000         0.000           2.000      ATTN, need revision
+
+IMPROPER
+Mg-ca-ca-ca         1.1          180.0         2.0          Using the default value
+ca-ca-ca-ha         1.1          180.0         2.0          Using general improper torsional angle  X- X-ca-ha, penalty score=  6.0)
+
+NONBON
+  Mg          1.6445  3.6612             ATTN, need revision
+
+
+

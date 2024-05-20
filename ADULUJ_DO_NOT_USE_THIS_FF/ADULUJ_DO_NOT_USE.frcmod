@@ -1,0 +1,98 @@
+Remark line goes here
+MASS
+Mg 24.305        0.000               
+6o 16.000        0.465               same as os 
+5o 16.000        0.465               same as os 
+2o 16.000        0.465               same as os 
+3o 16.000        0.465               same as os 
+4o 16.000        0.465               same as os 
+1o 16.000        0.465               same as os 
+
+BOND
+6o-Mg    55.39    2.04238
+5o-Mg    45.48    2.06461
+2o-Mg    45.48    2.06461
+3o-Mg    54.04    2.04210
+4o-Mg    50.84    2.04865
+1o-Mg    46.99    2.06030
+6o-ho    600.0    0.84970
+5o-ho    600.0    0.84987
+2o-ho    600.0    0.84952
+3o-ho    600.0    0.85017
+4o-ho    600.0    0.85032
+1o-ho    600.0    0.85022
+
+ANGLE
+Mg-6o-ho     45.29       121.08
+Mg-5o-ho     45.29       121.08
+Mg-2o-ho     42.81       125.43
+Mg-3o-ho     49.73       121.86
+Mg-4o-ho     44.08       124.75
+Mg-1o-ho     39.82       125.41
+6o-Mg-5o     50.00        180.00
+6o-Mg-2o     85.33       91.04
+6o-Mg-3o     86.60       89.05
+6o-Mg-4o     70.32       93.47
+6o-Mg-1o     73.51       88.94
+ho-6o-ho     33.40       108.05
+2o-Mg-5o     88.00       90.00
+5o-Mg-3o     87.14       91.38
+5o-Mg-4o     88.22       86.48
+5o-Mg-1o     88.06       90.61
+ho-5o-ho     48.40       87.77
+2o-Mg-3o     92.71       89.98
+2o-Mg-4o     77.93       175.40
+2o-Mg-1o     95.56       88.26
+ho-2o-ho     30.53       108.47
+4o-Mg-3o     87.05       90.98
+3o-Mg-1o     58.39       177.31
+ho-3o-ho     32.07       108.35
+4o-Mg-1o     92.62       90.94
+ho-4o-ho     30.14       108.49
+ho-1o-ho     28.98       108.61
+
+DIHE
+ho-5o-Mg-6o   1    0.000         0.000           2.000      ATTN, need revision
+ho-2o-Mg-6o   1    0.000         0.000           2.000      ATTN, need revision
+ho-3o-Mg-6o   1    0.000         0.000           2.000      ATTN, need revision
+ho-4o-Mg-6o   1    0.000         0.000           2.000      ATTN, need revision
+ho-1o-Mg-6o   1    0.000         0.000           2.000      ATTN, need revision
+ho-6o-Mg-5o   1    0.000         0.000           2.000      ATTN, need revision
+ho-2o-Mg-5o   1    0.000         0.000           2.000      ATTN, need revision
+ho-3o-Mg-5o   1    0.000         0.000           2.000      ATTN, need revision
+ho-4o-Mg-5o   1    0.000         0.000           2.000      ATTN, need revision
+ho-1o-Mg-5o   1    0.000         0.000           2.000      ATTN, need revision
+ho-6o-Mg-2o   1    0.000         0.000           2.000      ATTN, need revision
+ho-5o-Mg-2o   1    0.000         0.000           2.000      ATTN, need revision
+ho-3o-Mg-2o   1    0.000         0.000           2.000      ATTN, need revision
+ho-4o-Mg-2o   1    0.000         0.000           2.000      ATTN, need revision
+ho-1o-Mg-2o   1    0.000         0.000           2.000      ATTN, need revision
+ho-6o-Mg-3o   1    0.000         0.000           2.000      ATTN, need revision
+ho-5o-Mg-3o   1    0.000         0.000           2.000      ATTN, need revision
+ho-2o-Mg-3o   1    0.000         0.000           2.000      ATTN, need revision
+ho-4o-Mg-3o   1    0.000         0.000           2.000      ATTN, need revision
+ho-1o-Mg-3o   1    0.000         0.000           2.000      ATTN, need revision
+ho-6o-Mg-4o   1    0.000         0.000           2.000      ATTN, need revision
+ho-5o-Mg-4o   1    0.000         0.000           2.000      ATTN, need revision
+ho-2o-Mg-4o   1    0.000         0.000           2.000      ATTN, need revision
+ho-3o-Mg-4o   1    0.000         0.000           2.000      ATTN, need revision
+ho-1o-Mg-4o   1    0.000         0.000           2.000      ATTN, need revision
+ho-6o-Mg-1o   1    0.000         0.000           2.000      ATTN, need revision
+ho-5o-Mg-1o   1    0.000         0.000           2.000      ATTN, need revision
+ho-2o-Mg-1o   1    0.000         0.000           2.000      ATTN, need revision
+ho-3o-Mg-1o   1    0.000         0.000           2.000      ATTN, need revision
+ho-4o-Mg-1o   1    0.000         0.000           2.000      ATTN, need revision
+
+IMPROPER
+
+NONBON
+  Mg          1.6445  3.6612             OPLS
+  6o          1.8200  0.0930             same as oh 
+  5o          1.8200  0.0930             same as oh 
+  2o          1.8200  0.0930             same as oh 
+  3o          1.8200  0.0930             same as oh 
+  4o          1.8200  0.0930             same as oh 
+  1o          1.8200  0.0930             same as oh 
+
+
+

@@ -1,0 +1,50 @@
+Remark line goes here
+MASS
+Mg 24.305        2.200               ATTN, no polarizability parameter
+
+BOND
+Mg-os    36.52681  2.06117   ; Mg - Oxygen (os)
+Mg-na    43.85818  2.17661   ; Mg - Nitrogen (na)
+Mg-oh    49.93234  2.04724   ; Mg - Hydroxyl (oh)
+
+ANGLE
+Mg-os-c     54.23296  119.43   ; Mg - Oxygen (os) - Carbon (c)
+Mg-na-nb    35.50740  125.43   ; Mg - Nitrogen (na) - Nitrogen (nb)
+Mg-na-ca    36.92118  113.29   ; Mg - Nitrogen (na) - Carbon (ca)
+Mg-oh-ho    74.10269  120.84   ; Mg - Hydroxyl (oh) - Hydrogen (ho)
+na-Mg-os    35.83144  103.45   ; Nitrogen (na) - Mg - Oxygen (os)
+oh-Mg-os    60.48729  92.83    ; Hydroxyl (oh) - Mg - Oxygen (os)
+os-Mg-os    47.68640  180.00   ; Oxygen (os) - Mg - Oxygen (os)
+na-Mg-oh    60.47598  87.17    ; Nitrogen (na) - Mg - Hydroxyl (oh)
+na-Mg-na    47.07453  180.00   ; Nitrogen (na) - Mg - Nitrogen (na)
+oh-Mg-oh    61.62558  180.00   ; Hydroxyl (oh) - Mg - Hydroxyl (oh)
+
+DIHE
+Mg-na-nb-ca   2    9.600       180.000           2.000      same as X -na-nc-X , penalty score= 80.5
+os-Mg-na-nb   1    0.000         0.000           2.000      ATTN, need revision
+os-Mg-na-ca   1    0.000         0.000           2.000      ATTN, need revision
+os-Mg-oh-ho   1    0.000         0.000           2.000      ATTN, need revision
+os-Mg-os-c    1    0.000         0.000           2.000      ATTN, need revision
+na-Mg-os-c    1    0.000         0.000           2.000      ATTN, need revision
+na-Mg-oh-ho   1    0.000         0.000           2.000      ATTN, need revision
+na-Mg-na-ca   1    0.000         0.000           2.000      ATTN, need revision
+na-Mg-na-nb   1    0.000         0.000           2.000      ATTN, need revision
+ca-na-nb-ca   2    9.600       180.000           2.000      same as X -na-nc-X , penalty score= 80.5
+oh-Mg-os-c    1    0.000         0.000           2.000      ATTN, need revision
+oh-Mg-na-nb   1    0.000         0.000           2.000      ATTN, need revision
+oh-Mg-na-ca   1    0.000         0.000           2.000      ATTN, need revision
+oh-Mg-oh-ho   1    0.000         0.000           2.000      ATTN, need revision
+
+IMPROPER
+Mg-ca-na-nb         1.1          180.0         2.0          Using the default value
+c -ca-ca-nb         1.1          180.0         2.0          Using the default value
+c -ca-ca-na         1.1          180.0         2.0          Using the default value
+ca-ca-ca-ha         1.1          180.0         2.0          Using general improper torsional angle  X- X-ca-ha, penalty score=  6.0)
+ca-o -c -o          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+ca-o -c -os         1.1          180.0         2.0          Using the default value
+
+NONBON
+  Mg          1.6445  3.6612             ATTN, need revision
+
+
+

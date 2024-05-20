@@ -1,0 +1,125 @@
+Remark line goes here
+MASS
+Mg 24.305        0.000               
+3o 16.000        0.465               same as os 
+4o 16.000        0.465               same as os 
+5o 16.000        0.465               same as os 
+6o 16.000        0.465               same as os 
+
+BOND
+Mg-br    25.80  2.655        ATTN, need revision
+Mg-6o    20.53  2.170
+Mg-4o    22.77  2.166
+Mg-3o    23.05  2.270
+Mg-5o    23.84  2.169
+Mg-ca    0.00   0.000       ATTN, need revision
+c3-6o    274.95 1.438       same as c3-os, penalty score=  0.0
+c3-5o    281.39 1.433       same as c3-os, penalty score=  0.0
+c3-4o    251.11 1.452       same as c3-os, penalty score=  0.0
+c3-3o    284.17 1.432       same as c3-os, penalty score=  0.0
+
+ANGLE
+Mg-6o-c3    64.51       115.07
+Mg-4o-c3    77.87       118.81
+Mg-3o-c3    38.15       120.64
+Mg-5o-c3    60.01       123.76  ATTN, need revision
+Mg-ca-ca    0.000       0.000   ATTN, need revision
+3o-Mg-br    20.82       162.31
+4o-Mg-br    18.81       91.97
+5o-Mg-br    0.000       0.000   ATTN, need revision
+6o-Mg-br    28.81       96.79
+br-Mg-ca    0.000       0.000   ATTN, need revision
+3o-Mg-4o    40.84       74.94
+3o-Mg-5o    0.000       0.000   ATTN, need revision
+3o-Mg-6o    55.50       91.27
+3o-Mg-ca    0.000       0.000   ATTN, need revision
+3o-c3-h1    50.800     109.780   same as h1-c3-os, penalty score=  0.0
+3o-c3-c3    68.000     107.970   same as c3-c3-os, penalty score=  0.0
+4o-Mg-5o    0.000       0.000   ATTN, need revision
+4o-Mg-6o    32.94       156.48
+4o-Mg-ca    0.000       0.000   ATTN, need revision
+4o-c3-c3    68.000     107.970   same as c3-c3-os, penalty score=  0.0
+4o-c3-h1    50.800     109.780   same as h1-c3-os, penalty score=  0.0
+5o-Mg-6o    0.000       0.000   ATTN, need revision
+5o-Mg-ca    0.000       0.000   ATTN, need revision
+5o-c3-h1    50.800     109.780   same as h1-c3-os, penalty score=  0.0
+5o-c3-c3    68.000     107.970   same as c3-c3-os, penalty score=  0.0
+6o-Mg-ca    0.000       0.000   ATTN, need revision
+6o-c3-c3    68.000     107.970   same as c3-c3-os, penalty score=  0.0
+6o-c3-h1    50.800     109.780   same as h1-c3-os, penalty score=  0.0
+c3-3o-c3    62.700     112.480   same as c3-os-c3, penalty score=  0.0
+c3-4o-c3    62.700     112.480   same as c3-os-c3, penalty score=  0.0
+c3-5o-c3    62.700     112.480   same as c3-os-c3, penalty score=  0.0
+c3-6o-c3    62.700     112.480   same as c3-os-c3, penalty score=  0.0
+
+DIHE
+Mg-3o-c3-h1   3    1.150         0.000           3.000      same as X -c3-os-X , penalty score=  0.0
+Mg-3o-c3-c3   3    1.150         0.000           3.000      same as X -c3-os-X , penalty score=  0.0
+Mg-4o-c3-c3   3    1.150         0.000           3.000      same as X -c3-os-X , penalty score=  0.0
+Mg-4o-c3-h1   3    1.150         0.000           3.000      same as X -c3-os-X , penalty score=  0.0
+Mg-5o-c3-h1   3    1.150         0.000           3.000      same as X -c3-os-X , penalty score=  0.0
+Mg-5o-c3-c3   3    1.150         0.000           3.000      same as X -c3-os-X , penalty score=  0.0
+Mg-6o-c3-c3   3    1.150         0.000           3.000      same as X -c3-os-X , penalty score=  0.0
+Mg-6o-c3-h1   3    1.150         0.000           3.000      same as X -c3-os-X , penalty score=  0.0
+c3-3o-Mg-br   1    0.000         0.000           2.000      ATTN, need revision
+c3-4o-Mg-br   1    0.000         0.000           2.000      ATTN, need revision
+c3-5o-Mg-br   1    0.000         0.000           2.000      ATTN, need revision
+c3-6o-Mg-br   1    0.000         0.000           2.000      ATTN, need revision
+br-Mg-ca-ca   1    0.000         0.000           2.000      ATTN, need revision
+c3-4o-Mg-3o   1    0.000         0.000           2.000      ATTN, need revision
+c3-5o-Mg-3o   1    0.000         0.000           2.000      ATTN, need revision
+c3-6o-Mg-3o   1    0.000         0.000           2.000      ATTN, need revision
+3o-Mg-ca-ca   1    0.000         0.000           2.000      ATTN, need revision
+3o-c3-c3-4o   1    0.144         0.000          -3.000      same as os-c3-c3-os
+3o-c3-c3-4o   1    1.175         0.000           2.000      same as os-c3-c3-os, penalty score=  0.0
+3o-c3-c3-h1   1    0.000         0.000          -3.000      same as h1-c3-c3-os
+3o-c3-c3-h1   1    0.250         0.000           1.000      same as h1-c3-c3-os, penalty score=  0.0
+c3-3o-Mg-4o   1    0.000         0.000           2.000      ATTN, need revision
+c3-5o-Mg-4o   1    0.000         0.000           2.000      ATTN, need revision
+c3-6o-Mg-4o   1    0.000         0.000           2.000      ATTN, need revision
+4o-Mg-ca-ca   1    0.000         0.000           2.000      ATTN, need revision
+c3-3o-Mg-5o   1    0.000         0.000           2.000      ATTN, need revision
+c3-4o-Mg-5o   1    0.000         0.000           2.000      ATTN, need revision
+c3-6o-Mg-5o   1    0.000         0.000           2.000      ATTN, need revision
+5o-Mg-ca-ca   1    0.000         0.000           2.000      ATTN, need revision
+5o-c3-c3-6o   1    0.144         0.000          -3.000      same as os-c3-c3-os
+5o-c3-c3-6o   1    1.175         0.000           2.000      same as os-c3-c3-os, penalty score=  0.0
+5o-c3-c3-h1   1    0.000         0.000          -3.000      same as h1-c3-c3-os
+5o-c3-c3-h1   1    0.250         0.000           1.000      same as h1-c3-c3-os, penalty score=  0.0
+c3-3o-Mg-6o   1    0.000         0.000           2.000      ATTN, need revision
+c3-4o-Mg-6o   1    0.000         0.000           2.000      ATTN, need revision
+c3-5o-Mg-6o   1    0.000         0.000           2.000      ATTN, need revision
+6o-Mg-ca-ca   1    0.000         0.000           2.000      ATTN, need revision
+c3-3o-c3-h1   3    1.150         0.000           3.000      same as X -c3-os-X , penalty score=  0.0
+c3-3o-c3-c3   1    0.383         0.000          -3.000      same as c3-c3-os-c3
+c3-3o-c3-c3   1    0.100       180.000           2.000      same as c3-c3-os-c3, penalty score=  0.0
+4o-c3-c3-h1   1    0.000         0.000          -3.000      same as h1-c3-c3-os
+4o-c3-c3-h1   1    0.250         0.000           1.000      same as h1-c3-c3-os, penalty score=  0.0
+c3-4o-c3-h1   3    1.150         0.000           3.000      same as X -c3-os-X , penalty score=  0.0
+c3-4o-c3-c3   1    0.383         0.000          -3.000      same as c3-c3-os-c3
+c3-4o-c3-c3   1    0.100       180.000           2.000      same as c3-c3-os-c3, penalty score=  0.0
+c3-5o-c3-h1   3    1.150         0.000           3.000      same as X -c3-os-X , penalty score=  0.0
+c3-5o-c3-c3   1    0.383         0.000          -3.000      same as c3-c3-os-c3
+c3-5o-c3-c3   1    0.100       180.000           2.000      same as c3-c3-os-c3, penalty score=  0.0
+6o-c3-c3-h1   1    0.000         0.000          -3.000      same as h1-c3-c3-os
+6o-c3-c3-h1   1    0.250         0.000           1.000      same as h1-c3-c3-os, penalty score=  0.0
+c3-6o-c3-h1   3    1.150         0.000           3.000      same as X -c3-os-X , penalty score=  0.0
+c3-6o-c3-c3   1    0.383         0.000          -3.000      same as c3-c3-os-c3
+c3-6o-c3-c3   1    0.100       180.000           2.000      same as c3-c3-os-c3, penalty score=  0.0
+c3-3o-Mg-ca   1    0.000         0.000           2.000      ATTN, need revision
+c3-4o-Mg-ca   1    0.000         0.000           2.000      ATTN, need revision
+c3-5o-Mg-ca   1    0.000         0.000           2.000      ATTN, need revision
+c3-6o-Mg-ca   1    0.000         0.000           2.000      ATTN, need revision
+
+IMPROPER
+Mg-ca-ca-ca         1.1          180.0         2.0          Using the default value
+ca-ca-ca-ha         1.1          180.0         2.0          Using general improper torsional angle  X- X-ca-ha, penalty score=  6.0)
+
+NONBON
+  Mg          1.6445  3.6612             OPLS
+  3o          1.6837  0.1700             same as os 
+  4o          1.6837  0.1700             same as os 
+  5o          1.6837  0.1700             same as os 
+  6o          1.6837  0.1700             same as os
+
+
